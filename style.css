@@ -1,0 +1,487 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: manrope,
+    sans-serif;
+}
+nav{
+    width: 100%;
+    padding-inline: 12vw;
+    background-color: #ffff;
+    height: 8vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav-part2-hide i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.nav-part2-hide{
+    
+    
+
+    display: none;
+}
+
+.nav-part2-hide button{
+    width: 140px;
+    height:40px;
+    background-color: #1892F6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.nav-logo{
+    width: 30%;
+    height: 8vh;
+}
+.nav-logo img{
+    height: 8vh;
+    width: 5vw;
+}
+.nav-part2{
+    height: 8vh;
+    width: 70%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* display: none; */
+}
+.nav-part2 h1{
+    font-weight: 550;
+    font-size: 1.1vw;
+    color: #0f1011;
+}
+.nav-part2 button{
+    width: 15%;
+    height: 50%;
+    background-color: #1892F6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.section{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    padding: 10vh 15vw;
+    max-height: auto;
+    /* text-align: center; */
+}
+#sayhi{
+    line-height: 5vw;
+}
+#onecard{
+    font-size: 60px;
+    color: #1892F6;
+    font-weight:550;
+}
+
+.section-part1 img{
+    height: 10vh;
+    width: 100%;
+}
+.section-part1 h3{
+    color: #1892F6;
+    line-height: 7vw;
+    font-size: 23px;
+}
+
+.section-part1-logo{
+    height: 10vh;
+    width: 70%;
+}
+.section-part1 p{
+    font-size: 20px;
+    margin-block: 25px;
+    color: #202426;
+}
+.section-part1 button{
+    height: 40px;
+    width: 170px;
+    background-color: #1892F6;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.section-part1{
+    height: 70vh;
+    width: 50%;
+}
+.section-part2{
+    height: 70vh;
+    width: 50%;
+}
+.section-part2 video{
+    height: 550px;
+    width: 350px;
+}
+
+.family{
+    height: 450px;
+    width: 550px;
+}
+
+
+
+
+
+.section2{
+    height: 70vh;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+.section2 h1{
+    font-size: 50px;
+    line-height: 7.5vh;
+    font-weight: 500;
+}
+.section2-h:first-child{
+
+    font-size: 60px;
+    height: 50%;
+    padding-inline: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(41,130,221);
+background: linear-gradient(111deg, rgba(41,130,221,1) 50%, rgba(255,255,255,1) 77%);
+    /* background-image: linear-gradient(to right, #2982DD 62%,rgb(253, 251, 251) 50% ); */
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+.section3{
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    padding: 10vh 15vw;
+    max-height: auto;
+}
+/* .section3-part1{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+} */
+
+.section3-part1{
+    height: 60vh;
+    width: 50%;
+    
+}
+.section3-part1 video{
+    height: 450px;
+    width: 450px;
+}
+.section3-part2{
+    display: flex;
+    height: 60vh;
+    width: 50%;
+    justify-content: flex-end;
+    /* align-items: center; */
+    text-align: right;
+    
+}
+.section3-part1 h1{
+    font-size: 100px;
+
+}
+
+.section3-part2 h1{
+    font-size: 62px;
+    font-weight: 545;
+}
+.section3-part2 p{
+    color: #756b58;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/* bolg section */
+
+.blog{
+    min-height: 90vh;
+    max-height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-inline: 10vw;
+    
+
+}
+.blog-heading{
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.blog-heading h1{
+    font-size: 60px;
+}
+
+.blog-card1{
+    height: 300px;
+    margin:20px 30px;
+    width: 300px;
+}
+.blog-card-section h3{
+    margin-block: 10px;
+}
+.blog-img{
+    background-image: url("/image/best_dining_credit_cards\ \(1\).png");
+    background-size: cover;
+    height: 180px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.blog-card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 40vh;
+    max-height: auto;
+}
+.blog-card1:nth-child(2) .blog-img{
+    background-image: url("/image/minimum_salary_for_credit_card.png");
+}
+.blog-card1:nth-child(3) .blog-img{
+    background-image: url("/image/credit_card_insurance_and_its_benefits\ \(1\).png");
+}
+.blog-card1:nth-child(2){
+    padding-top: 45px;
+}
+
+.blog-card1:nth-child(3){
+    padding-top: 45px;
+}
+.blog-h3{
+    color: rgb(91, 80, 80);
+}
+.blog-view-button{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-view-button button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    /* margin-top: 30px; */
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #1892F6;
+    color: white;
+}
+
+.banking{
+    
+    min-height: 50vh;
+    max-height: auto;
+    width: 100%;
+    padding: 5vh 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    background-color: #F2F2F2;
+}
+.banking h1{
+    font-size: 60px;
+}
+.banking p{
+    font-size: 26px;
+    text-align: center;
+    color: #696969;
+    margin-block: 25px;
+}
+.banking img{
+    width: 300px;
+    height: 10vh;
+    margin: 5px;
+}
+.banking:nth-child(2) img{
+    width: 800px;
+    min-height: 10vh;
+    max-height: 40vh;
+}
+.banking-logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.foot-2{
+    min-height: 80vh;
+    max-height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    justify-content: space-between;
+    padding: 10vh 15vw;
+    color: white;
+}
+
+.foot-2 ul{
+    display: flex;
+    list-style: none;
+
+}
+.foot-2 ul li{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.foot-2 h1{
+    font-size: 40px;
+    color: #1892F6;
+}
+.foot-2 p{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+footer{
+    min-height: 110vh;
+    max-height: auto;
+    width: 100%;
+    background-color: black;
+    padding: 5vh 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.li-head{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    color: white;
+    /* background-color: #f34704; */
+    align-items: center;
+}
+.lists{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    max-height: fit-content;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 18px;
+    color: #279cd7;
+    line-height: 25px;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 35px;
+}
+.list:first-child{
+    width: 400px;
+}
+
+.footer-logo{
+    width: 400px;
+    height: 10vh;
+    text-align: center;
+}
+.footer-logo img{
+    height: 100px;
+    width: 300px;
+}
+.footer-logo2{
+    display: flex;
+    height: 20vh;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* padding-left: 10px; */
+}
+.footer-logo2 img{
+    width: 60px;
+    height: 40px;
+    margin: 70px 10px;
+}
+.footer p{
+    color: white;
+}
+@media (max-width:880px) {
+    .section{
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 7vw;
+        align-items: center;
+    }
+    .section3{
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 7vw;
+        align-items: center;
+    }
+    .section3-part2{
+        padding: 0;
+        width: 100%;
+        padding-left: 10vw;
+
+    }
+    .nav-part2-hide{
+        display: block;
+        width: 70%;
+        color: black;
+        height: 8vh;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav{
+        padding-inline: 7vw;
+        padding-top: 20px;
+    }
+    .nav-logo img{
+        width: 9vw;
+    }
+    .section-part1, .section3-part1{
+        width: 100%;
+        height: auto;
+    }
+    .nav-part2{
+        display: none;
+    }
+
+}
